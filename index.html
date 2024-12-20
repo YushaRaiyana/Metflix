@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<!-- PIM PIM -->
+<script src="https://kit.fontawesome.com/6d8272f248.js" crossorigin="anonymous"></script>
+
+<!-- Daisy UI -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- TAILWIND CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- CONFIG -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-black">
+    <div>
+        <div class="flex justify-between mx-24 px-5 py-4">
+            <div>
+                <img class="w-4/12" src="images/Netflix-logo.png" alt="">
+            </div>
+            <div>
+                <button class="px-4 py-1 hover:bg-red-800 bg-red-600 rounded-md text-white font-semibold">Sign In</button>
+                
+            </div>
+        </div> 
+        <div class="text-center">
+<img class="w-full opacity-30" src="images/Net-Background.png" alt="">
+<h1 class="text-6xl text-white font-black absolute top-72 right-1/4 left-1/4">Unlimited movies, <br>TV shows, and more</h1> 
+<div class="absolute font-bold text-xl text-white bottom-60 right-1/4 left-1/4"><p>Starts at USD 2.99. Cancel anytime.</p></div>
+     <div class="absolute text-lg text-white bottom-44 right-1/4 left-1/4"><p>Ready to watch? Enter your email to create or restart your membership.</p></div>
+    <div class="">
+                    <div>
+                        <input class="absolute text-lg bottom-24 left-1/4 p-4 w-4/12 bg-transparent border-neutral-500  border rounded-lg" type="text" placeholder="Email Address"></div>  
+               <div>
+                <button class="absolute ml-36 bottom-24 font-bold text-2xl px-7 py-4 rounded-md bg-red-600 hover:bg-red-800 text-white">Get Started <i class="fa-solid fa-chevron-right"></i></button>
+               </div>
+            </div>
+
+</div>
+    
+    </div>
+    <!-- NEW PART -->
+    <div class="mx-28">
+        <div><img class="h-32 mx-auto " src="images/Line-69.png" alt=""></div>
+        <div>
+            <h1 class="text-2xl text-white font-bold">Trending Now</h1>
+        </div>
+        <br> 
+        <div class="flex">
+            <div class="dropdown">
+            <div tabindex="0" role="button" class="btn m-1 border-gray-900">Country:</div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+              <li><a>Bangladesh</a></li>
+              <li><a>Global</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn m-1 border-gray-900">Movies:</div>
+            <ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+              <li><a>Podcasts</a></li>
+              <li><a>TV Shows</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Card Parts -->
+         
+    </div>
+
+    
+</body>
+</html>
